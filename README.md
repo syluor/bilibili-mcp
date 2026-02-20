@@ -7,9 +7,7 @@ This MCP server provides functionality to search and interact with Bilibili (a C
 ## Features
 
 - Search Bilibili videos by keywords
-- Get video subtitles (AI-generated)
-- View video information and details
-- Generate AI subtitles for media files using Bcut API
+- View video information, details, and AI-generated subtitles
 
 ## Components
 
@@ -22,20 +20,10 @@ This MCP server provides functionality to search and interact with Bilibili (a C
     - `page` (int, optional): Page number, defaults to 1
     - `page_size` (int, optional): Results per page, defaults to 20
 
-- **get_video_subtitle**
-  - Get subtitles from a Bilibili video
-  - Input:
-    - `bvid` (string): Bilibili video ID (BV format)
-
 - **get_video_info**
-  - Get detailed information about a Bilibili video
+  - Get detailed information and AI-generated subtitles about a Bilibili video
   - Input:
     - `bvid` (string): Bilibili video ID (BV format)
-
-- **get_media_subtitle**
-  - Get AI-generated Chinese subtitles for media files using Bcut API
-  - Input:
-    - `url` (string): Media file URL
 
 ## Getting started
 

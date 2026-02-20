@@ -7,9 +7,7 @@
 ## 功能特点
 
 - 搜索B站视频
-- 获取视频字幕（自动生成的AI字幕）
-- 查询视频详细信息
-- 使用必剪API获取媒体文件的AI字幕
+- 查询视频详细信息及获取AI生成的字幕
 
 ## 组件
 
@@ -22,20 +20,10 @@
     - `page` (int, 可选): 页码，默认1
     - `page_size` (int, 可选): 每页数量，默认20
 
-- **get_video_subtitle**
-  - 获取B站视频的字幕
-  - 输入:
-    - `bvid` (string): 视频的BV号
-
 - **get_video_info**
-  - 获取B站视频的详细信息
+  - 获取B站视频的详细信息及AI生成的字幕
   - 输入:
     - `bvid` (string): 视频的BV号
-
-- **get_media_subtitle**
-  - 使用必剪API获取媒体文件的AI中文字幕
-  - 输入:
-    - `url` (string): 媒体文件URL
 
 ## 开始使用
 
@@ -83,7 +71,6 @@
 ## 资源
 
 - [B站API文档](https://github.com/SocialSisterYi/bilibili-API-collect)
-- [必剪API](https://www.bilibili.com/read/cv12349604/)
 
 ## 许可证
 
