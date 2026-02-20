@@ -64,7 +64,7 @@ async def get_video_subtitle(bvid: str) -> dict:
     # 过滤查找符合条件的字幕
     target_subtitle = None
     for subtitle in json_files:
-        if subtitle["lan"] == "ai-zh" and subtitle["lan_doc"] == "中文（自动生成）":
+        if subtitle["lan"] == "ai-zh":
             target_subtitle = subtitle
             break
     
